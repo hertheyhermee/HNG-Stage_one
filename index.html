@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="display-image">
+            <!-- Slack Display Picture -->
+            <img src="./images/IMG_2670.jpg" alt="Azeez Tiamiyu" data-testid="slackDisplayImage">
+        </div>
+
+        <div class="display-content">
+            <!-- Slack Name -->
+            <h1 data-testid="slackUserName">Azeez Tiamiyu</h1>
+
+            <!-- Current Day of the Week -->
+            <p data-testid="currentDayOfTheWeek"><span>Day:</span></p>
+
+            <!-- Current UTC Time -->
+            <p data-testid="currentUTCTime"><span>Time:</span></p>
+
+            <!-- Track -->
+            <p data-testid="myTrack"><span>Track:</span> Frontend</p>
+
+            <!-- GitHub URL -->
+            <a href="your_github_repository_url" data-testid="githubURL">GitHub Repository</a>
+        </div>
+    </div>
+
+
+
+    <!-- JavaScript to update dynamic data -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
