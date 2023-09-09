@@ -48,3 +48,7 @@ img {
 .display-content p span {
     font-weight: bold;
 }
+
+a {
+    text-decoration: none;
+}
